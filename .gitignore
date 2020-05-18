@@ -11,6 +11,8 @@ openrouteservice/Program FilesApache Software FoundationTomcat 7.0webappsopenrou
 nohup.out
 .python-version
 
+*.pbf
+
 .project
 
 # Ignore all app.config files except for the .sample one

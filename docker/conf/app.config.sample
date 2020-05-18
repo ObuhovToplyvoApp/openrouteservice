@@ -53,9 +53,7 @@
             "profiles":{
                "active":[
                    "vehicles-car",
-                   "vehicles-hgv",
-                   "bike",
-                   "pedestrian-walk"
+                   "vehicles-hgv"
                ],
                "default_params": {
                    "encoder_flags_size": 8,

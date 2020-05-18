@@ -11,7 +11,7 @@ docker-compose up -d
 
 This will:
 
-1. Build the openrouteservice [war file](https://www.wikiwand.com/en/WAR_(file_format)) from the local codebase and on container startup it sets `docker/conf/app.config.sample` as the config file and the OpenStreetMap dataset for Heidelberg under `docker/data/heidelberg.osm.gz` as sample data.
+1. Build the openrouteservice [war file](https://www.wikiwand.com/en/WAR_(file_format)) from the local codebase and on container startup it sets `docker/conf/app.config.sample` as the config file and the OpenStreetMap dataset for Heidelberg under `docker/data/main.pbf` as sample data.
 2. Launch the openrouteservice service on port `8080` within a tomcat container at the address `http://localhost:8080/ors`.
 
 ## Environment variables
